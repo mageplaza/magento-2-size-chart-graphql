@@ -25,7 +25,7 @@ type Query {
 }
 
 interface ProductInterface {
-    mp_sizechart: SizeChartRules @doc(description: "Mageplaza Size Chart applied on the product") @resolver(class: "Mageplaza\\SizeChartGraphQl\\Model\\Resolver\\SizeChartDataProvider")
+    mp_sizeChart: SizeChartRules @doc(description: "Mageplaza Size Chart applied on the product") @resolver(class: "Mageplaza\\SizeChartGraphQl\\Model\\Resolver\\SizeChartDataProvider")
 }
 
 input SizeChartRulesFilterInput {

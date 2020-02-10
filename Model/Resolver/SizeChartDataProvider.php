@@ -66,8 +66,13 @@ class SizeChartDataProvider implements ResolverInterface
      */
     public function resolve(Field $field, $context, ResolveInfo $info, array $value = null, array $args = null)
     {
+
         if (!$this->helperData->isEnabled()) {
             return null;
+        }
+
+        if (!array_key_exists('model', $value) || !$value['model'] instanceof ProductInterface) {
+            throw new LocalizedException(__('"model" value should be specified'));
         }
 
         /* @var $product ProductInterface */
@@ -78,7 +83,7 @@ class SizeChartDataProvider implements ResolverInterface
             $rule->setRuleContent($this->filterProvider->getPageFilter()->filter($rule->getRuleContent()));
 
             if ($rule->getConditions()->validate($product)) {
-                return Data::jsonEncode($rule);
+                return $rule;
             }
         }
 
