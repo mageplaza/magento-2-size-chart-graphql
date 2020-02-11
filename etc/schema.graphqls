@@ -39,7 +39,7 @@ input SizeChartRulesFilterInput {
     enabled: FilterTypeInput @doc(description: "Status of the size chart rule")
     attribute_code: FilterTypeInput @doc(description: "Attribute which size chart will show beside")
     demo_templates: FilterTypeInput @doc(description: "Demo template of the size chart rule")
-    priority: FilterTypeInput @doc(description: "Priority of the size chart rule")
+    priority: FilterTypeInput @doc(description: "Priority between size chart rule")
     updated_at: FilterTypeInput @doc(description: "Date of the last modification of the rule")
     created_at: FilterTypeInput @doc(description: "Rule creation date")
 }
