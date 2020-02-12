@@ -80,9 +80,9 @@ class SizeChartDataProvider implements ResolverInterface
         $rules   = $this->helperData->getRuleCollection();
 
         foreach ($rules as $rule) {
-            $rule->setRuleContent($this->filterProvider->getPageFilter()->filter($rule->getRuleContent()));
-
             if ($rule->getConditions()->validate($product)) {
+                $rule->setRuleContent($this->filterProvider->getPageFilter()->filter($rule->getRuleContent()));
+
                 return $rule;
             }
         }
