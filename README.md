@@ -1,4 +1,4 @@
-# Size Chart GraphQl
+# Size Chart GraphQL
 
 ## How to install
 Run the following command in Magento 2 root folder:
