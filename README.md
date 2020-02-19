@@ -26,5 +26,5 @@ To start working with **Size Chart GraphQL** in Magento, you need to:
 ![](https://i.imgur.com/LUE5YsU.png)
 
 
-You can see more examples [here](https://documenter.getpostman.com/view/5187684/SzKQz1Sq?version=latest).
+**You can see more examples [here](https://documenter.getpostman.com/view/5187684/SzKQz1Sq?version=latest).**
 
