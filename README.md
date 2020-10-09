@@ -1,4 +1,4 @@
-# Size Chart GraphQL
+# Magento 2 Size Chart GraphQL (Support PWA)
 
 ## How to install
 Run the following command in Magento 2 root folder:
