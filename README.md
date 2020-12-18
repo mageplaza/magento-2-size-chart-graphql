@@ -1,5 +1,7 @@
 # Magento 2 Size Chart GraphQL / PWA 
 
+**Magento 2 Size Chart GraphQL is now a part of the Mageplaza Size Chart extension that adds GraphQL features. This supports PWA compatibility.**
+
 [Mageplaza Size Chart for Magento 2](https://www.mageplaza.com/magento-2-size-chart/) is an essential extension for online stores that specialize in fashion or wearable products. 
 
 As the cloth sizes vary depending on people's shape, an online clothing store must have a standard size chart for anyone to choose the items of their own sizes. It's convenient for customers to select suitable sizes for them. 
